@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+@import "./styles/css-variables.css";
+
+* {
+  font-size: 14px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  /* color: var(--secondary-text-color); */
+  /* color: #dce2e3; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: "#FAFAFA";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo {
+  grid-area: lo;
+}
+
+.header-menu {
+  grid-area: hm;
+}
+
+.header-user {
+  grid-area: hu;
+  background-color: #e53935;
+}
+
+.blank-left {
+  background-color: var(--secondary-background-color);
+  grid-area: bl;
+}
+
+.blank-right {
+  background-color: var(--secondary-background-color);
+  grid-area: br;
+}
+
+.overview {
+  background-color: var(--secondary-background-color);
+  grid-area: ov;
+}
+
+.summary-bar {
+  background-color: var(--secondary-background-color);
+  grid-area: sb;
+}
+
+.header3 {
+  background-color: royalblue;
+  grid-area: h3;
+}
+
+.side-menu {
+  background-color: slateblue;
+  grid-area: m;
+}
+
+.content {
+  background-color: springgreen;
+  grid-area: c;
+}
+
+@media (max-width: 425px) {
+  .overview {
+    text-align: center;
+  }
+}
+/* @media (max-width: 768px) {
+  div.example {
+    font-size: 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media (max-width: 425px) {
+  
+} */

@@ -1,0 +1,9 @@
+@import "../../styles/css-variables.css";
+
+.sub-header-div {
+  display: grid;
+  grid-template: 65px / 1fr;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-background-color);
+}

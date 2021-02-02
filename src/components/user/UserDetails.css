@@ -1,0 +1,33 @@
+/* p {
+  font-size: 1vw;
+} */
+
+.user-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 65px;
+  align-items: center;
+  justify-items: center;
+}
+
+#parentDiv {
+  position: relative;
+}
+
+#childDiv {
+  position: absolute; 
+  left: -27px;
+  top: 7px;
+  width: 52px;
+  height: 52px;
+}
+
+.text-color {
+  color: whitesmoke;
+}
+
+@media (max-width: 425px) {
+  #childDiv {
+    left: 5px;
+  }
+}

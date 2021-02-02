@@ -1,0 +1,6 @@
+.logo-div {
+  display: grid;
+  grid-template: 65px / 1fr;
+  align-items: center;
+  justify-content: center;
+}
