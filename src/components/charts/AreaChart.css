@@ -1,0 +1,28 @@
+@import "../../styles/css-variables.css";
+
+svg {
+  width: 100%;
+  /* border-radius: 4px; */
+  overflow: visible;
+}
+
+.tick text {
+  fill: var(--secondary-text-color);
+  font-size: 10px;
+}
+
+.chart-header {
+  fill: var(--primary-text-color);
+  font-size: 18;
+  font-weight: 600;
+  text-anchor: middle;
+}
+
+.outer-div {
+  background-color: var(--secondary-background-color);
+  height: 200px;
+  padding-top: 30px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}

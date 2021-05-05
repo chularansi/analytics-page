@@ -1,9 +1,12 @@
+@import "../../styles/css-variables.css";
+
 .header-menu-div {
   display: grid;
   grid-template: 65px / repeat(3, 1fr);
   align-items: center;
   justify-items: center;
-  /* justify-content: ; */
+  font-weight: 600;
+  color: var(--primary-text-color);
 }
 
 .header-menu-div a {

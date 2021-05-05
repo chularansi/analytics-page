@@ -1,0 +1,18 @@
+#pie-container
+{
+  display: flex;
+  align-items: center;
+}
+
+#pie-svg {
+  margin: 0 auto;
+  display: block;
+  width: 160px;
+  height: 160px;
+}
+
+.pie-mid-text {
+  font-size: 24px;
+  font-weight: 700;
+  fill: var(--primary-text-color);
+}

@@ -1,0 +1,20 @@
+@import "../../styles/css-variables.css";
+
+.side-menu-div {
+  display: grid;
+  grid-template: repeat(6, 65px ) / 1fr;
+  align-items: top;
+  justify-items: center;
+}
+
+.iconSize {
+  height: 32px;
+  width: 32px;
+}
+
+@media (max-width: 425px) {
+  .side-menu-div {
+    grid-template: 65px / repeat(6, 1fr);
+    align-items: center;
+  }
+}

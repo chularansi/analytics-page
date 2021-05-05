@@ -1,6 +1,4 @@
 import React from 'react';
-// Link helps to prevent reload when click the link
-// withRouter helps to access props history
 import { Link, withRouter } from 'react-router-dom';
 import './Menu.css';
 

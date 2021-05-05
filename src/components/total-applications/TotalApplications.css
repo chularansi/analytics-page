@@ -1,0 +1,50 @@
+@import "../../styles/css-variables.css";
+
+.ta-container {
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  background-color: var(--secondary-background-color);
+  border-radius: 5px;
+  /* align-items: center;
+  justify-content: space-around;*/
+  padding: 20px 0; 
+}
+
+.ta-sub-grid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  padding-left: 10px;
+}
+
+.pie-text-color {
+  color: var(--tertiary-color);
+}
+
+.ta-header {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.ta-list {
+  display: grid;
+  grid-template: 1fr 1fr / 2fr 1fr;
+  align-items: center;
+  padding-right: 35px;
+}
+
+.ta-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.ta-right-cap {
+  padding-right: 5px;
+  border-right: 3px solid var(--tertiary-background-color);
+}
+
+.ta-right-comp {
+  padding-right: 5px;
+  border-right: 3px solid var(--fourth-color);
+}

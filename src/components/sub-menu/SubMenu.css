@@ -1,0 +1,20 @@
+@import "../../styles/css-variables.css";
+
+.sub-menu-div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 65px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-menu-div a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 425px) {
+  .sub-menu-div {
+    justify-content: space-evenly;
+  }
+}

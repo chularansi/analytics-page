@@ -24,20 +24,28 @@
 }
 
 .figure1 {
-  color: var(--tertiary-color);
-}
-
-.figure2 {
   color: var(--secondary-color);
 }
 
+.figure2 {
+  color: var(--tertiary-color);
+}
+
 .figure3 {
+  color: var(--fourth-color);
+}
+
+.figure4 {
   color: var(--primary-color);
+}
+
+.figure5 {
+  color: var(--fifth-color);
 }
 
 .figure-weight-nok {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {

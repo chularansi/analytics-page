@@ -3,21 +3,6 @@ import './DropDown.css';
 
 const DropDown = ({dropList, upperCase}) => {
 
-  // const dropList = [
-  //   {
-  //     value: 'overview1',
-  //     title: 'overview' 
-  //   },
-  //   {
-  //     value: 'overview2',
-  //     title: 'overview 2' 
-  //   },
-  //   {
-  //     value: 'overview3',
-  //     title: 'overview 3' 
-  //   }
-  // ]
-
   const [overview, setOverview] = useState(dropList);
 
   const handleChange = (e) => {
@@ -28,7 +13,7 @@ const DropDown = ({dropList, upperCase}) => {
   return (
     <div className="drop-down">
       <div>
-        <select value={overview} onChange={handleChange}>
+        <select value={overview.value} onChange={handleChange} multiple={false}>
           {dropList.map(item => {
             return <option key={item.value} value={item.value}>{upperCase ? item.title.toUpperCase() : item.title.charAt(0).toUpperCase() + item.title.slice(1)}</option>
           })}
